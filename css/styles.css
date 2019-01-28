@@ -117,6 +117,30 @@ main > section {
   margin: 10px;
 }
 
+
+#education-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 55% 45%;
+  
+}
+
+.education-header{
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  
+}
+
+.education-item{
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  
+}
+
 .footer-nav li {
   display: inline-block;
   margin-right: 6%;
