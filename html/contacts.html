@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>Contact</title>
+    <title>Contact Me</title>
   </head>
   <body>
+    <form action="#">
     <Header>
       <div class="head-wrapper">
         <div>
@@ -36,26 +37,41 @@
         <li><a href="./web-projects.html">Web Projects </a></li>
         <li><a href="./projects.html">Other Projects </a></li>
         <li><a href="./skills.html">Skills </a></li>
-        <li><a href="./contacts.html">Contact Me </a></li>
+        <li><a href="./contacts.html" id="visited">Contact Me </a></li>
       </ul>
     </Header>
     <div>
       <main>
+        <section id="section-education">
+          <h3>Contact Me</h3>
+          <hr />
+         
+            <div id="education-container">
+              
+              <div class="education-item"><label for="name">Name:</label></div>
+              <div class="education-item"><input type="text" name="name" class="form-feilds" placeholder="Enter Your Name"></div>
 
-          <section>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
-              iste dolorem, esse quisquam ratione facilis consectetur earum ab sint
-              eligendi obcaecati dolorum quod ipsam saepe, dignissimos, nam hic vel
-              quos?
-            </section>
-            
-        <section>
-          <img src="../assets/images/hello.png" alt="Hello">
+              <div class="education-item"><label for="email">Email:</label></div>
+              <div class="education-item"><input type="email" name="email" class="form-feilds" placeholder="Enter Your Email" required/></div>
+
+              <div class="education-item"><label for="message">Message:</label></div>
+              <div class="education-item"><textarea name="message" class="form-feilds" placeholder="Enter Your message" rows = "5" required></textarea></div>
+
+              <div class="education-item"></div>
+              <div class="education-item"><input type="submit" value="Send" class="send-button"></div>
+              </div>
+              
+              
+         
+
+        
+
+          
         </section>
 
-        
-
-        
+        <section id="section-img">
+          <img src="../assets/images/contact-me.jpg" alt="contact me" id="contact-me-img" />
+        </section>
       </main>
     </div>
     <footer>
@@ -69,5 +85,6 @@
         </ul>
       </div>
     </footer>
+  </form>
   </body>
 </html>
