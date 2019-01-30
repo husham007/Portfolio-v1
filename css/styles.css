@@ -48,9 +48,9 @@
 
 #hello-image {
   display: block;
-  margin-left: 40%;
+  margin-left: 20%;
   margin-right: 5%;
-  width: 40%;
+  width: 60%;
 }
 
 #work-image {
@@ -127,6 +127,7 @@ h2 {
   font-weight: bold;
   text-align: left;
   color: #ffb600;
+  color: green;
   
   
 }
