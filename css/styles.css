@@ -6,12 +6,12 @@
 
 #header-div-one {
   border: 0px solid green;
-  width: 15%;
+  width: 18%;
 }
 
 #header-div-two {
   border: 0px solid green;
-  width: 70%;
+  width: 65%;
   /*background-image: url(../assets/images/header-banner.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;*/
@@ -19,7 +19,7 @@
 
 #header-div-three {
   border: 0px solid green;
-  width: 15%;
+  width: 19%;
 }
 
 .middleImage {
@@ -49,8 +49,17 @@
 #hello-image {
   display: block;
   margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-right: 5%;
   width: 60%;
+}
+
+#hello-image-home {
+  display: block;
+  margin-left: 0%;
+  margin-right: 5%;
+  width: 20%;
 }
 
 #work-image {
@@ -103,7 +112,7 @@
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2vw;
+  font-size: 2.6vw;
   font-weight: bold;
   text-align: center;
   /*color: #ffb600;*/
@@ -154,7 +163,7 @@ h4 {
 
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   text-align: justify;
   margin-bottom: 0%;
   padding-bottom: 0%;
