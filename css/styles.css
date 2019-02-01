@@ -1,3 +1,4 @@
+/*****Header*****/
 .head-wrapper {
   display: inline-flex;
   margin-bottom: 0%;
@@ -25,24 +26,21 @@
 .middleImage {
   display: block;
   margin: 0%;
-  width: 60%; 
-  
+  width: 60%;
 }
 
 .leftImage {
   display: none;
   margin-left: 0;
-  
-  width: 100%;  
+
+  width: 100%;
 }
 
 .rightImage {
   display: block;
   margin-right: 0%;
   margin-left: 50%;
-  width:80%;
-  
-  
+  width: 80%;
 }
 
 #hello-image {
@@ -107,7 +105,6 @@
   display: none;
   margin-top: 0%;
   margin-bottom: 0%;
-  
 }
 
 h1 {
@@ -117,14 +114,12 @@ h1 {
   text-align: center;
   /*color: #ffb600;*/
   padding: 0%;
-  
-  color:#343434;
-  
-  
+
+  color: #343434;
 }
 
 .profession {
-  display: none;  
+  display: none;
   width: 100%;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -136,8 +131,8 @@ h2 {
   font-weight: bold;
   text-align: left;
   color: #ffb600;
-  color: green; 
-  
+  color: green;
+  margin-bottom: 0%;
 }
 
 h3 {
@@ -171,6 +166,8 @@ p {
   padding-top: 0%;
 }
 
+/*****Body*****/
+
 body {
   margin-left: 15%;
   margin-right: 15%;
@@ -178,6 +175,8 @@ body {
   margin-bottom: 5%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*****nav bar header *****/
 
 .header-nav {
   background-color: white;
@@ -213,8 +212,9 @@ body {
 
 #visited {
   text-decoration: underline green;
-  
 }
+
+/*****main*****/
 
 main {
   border: 0px solid black;
@@ -362,6 +362,8 @@ details summary::-webkit-details-marker {
   width: 70%;
   background-color: #4caf50;
 }
+
+/*****footer*****/
 
 .footer-nav li {
   display: inline-block;
